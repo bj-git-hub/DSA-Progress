@@ -52,6 +52,44 @@ int main() {
     }
     cout << endl;
 
-    //-----------------------------------------------------------------
-    
+    //-------------------------Erasing elements----------------------
+
+    vector<int>v;
+	v.emplace_back(10);
+	v.emplace_back(20);
+	v.emplace_back(30);
+	v.emplace_back(40);
+	v.emplace_back(50);
+	
+	v.erase(v.begin());
+	
+	for(auto it: v){
+	    cout << it << " ";
+	}
+	cout << endl;
+	
+	// deleting a range
+
+    // v.erase(v.begin(), v.begin() + 3);
+
+    // ----------------Inserting elements-----------------------
+
+    // single element
+    v.insert(v.begin(), 10); // [10,20,30,40,50]
+
+    // multiple instances of a number
+    v.insert(v.begin(), 2, 100); //[100,100,10,20,30,40,50]
+
+    //one vector to another
+    vector<int>copy(2, 50);
+    v.insert(v.begin(), copy.begin(), copy.end());
+    // [50,50,100,100,10,20,30,40,50]
+
+
 }
+
+// other miscellaneous functions are part of vector STL.
+
+/*
+    List and deque - allows double ended operations.
+*/
