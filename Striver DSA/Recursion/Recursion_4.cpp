@@ -60,7 +60,7 @@ int main() {
 
 }
 
-// 2. Using single pointers
+// 2. Using single pointer
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -106,3 +106,29 @@ int main() {
 
 }
 
+// Check if a given string is a palindrome or not.
+#include <iostream>
+#include <string>
+using namespace std;
+
+bool isPalindrome(string s, int i){
+    if(i >= s.size() / 2) return true;
+
+    if(s[i] != s[s.size() - i - 1]) return false;
+
+    return isPalindrome(s, i + 1);
+}
+
+int main(){
+    string s;
+    cin >> s;
+
+    bool result = isPalindrome(s, 0);
+
+    if(result){
+        cout << "It's a Palindrome.";
+    }
+    else{
+        cout << "It's not a Palindrome.";
+    }
+}
