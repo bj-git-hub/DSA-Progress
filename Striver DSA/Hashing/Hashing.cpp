@@ -70,15 +70,12 @@ int main(){
     int n;
     cin >> n;
     int arr[n];
+    map <int , int > mpp;
     for(int i = 0 ; i < n ; i++){
         cin >> arr[i];
-    }
-    // pre-compute
-    map <int , int > mpp;
-    for(int i = 0; i < n; i ++){
         mpp[arr[i]]++;
     }
-
+    // pre-compute
     int t;
     cin >> t;
     while(t--){
@@ -89,3 +86,6 @@ int main(){
     }
     return 0;
 }
+// unordered map can be used for making the fetching and computation time constant.
+// best and avg case - O(1)
+// worst case - O(n) {catastrophic collision}
