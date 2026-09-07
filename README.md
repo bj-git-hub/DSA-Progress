@@ -1,4 +1,4 @@
-# 📚 Code Repository — DSA & OOP Practice
+﻿# 📚 Code Repository — DSA & OOP Practice
 
 Tracking my daily practice in **Data Structures & Algorithms** (Striver A2Z DSA Sheet) and **Object-Oriented Programming** in C++.
 
@@ -23,7 +23,7 @@ Code/
 |---|-------|-----------------|--------|
 | 1 | Basic Maths | 2 | 🔄 In Progress |
 | 2 | C++ STL | 4 | ✅ Complete |
-| 3 | Arrays (Easy) | 4 | 🔄 In Progress |
+| 3 | Arrays (Easy) | 7 | 🔄 In Progress |
 | 4 | Hashing | 1 | 🔄 In Progress |
 | 5 | Recursion | 5 | 🔄 In Progress |
 | 6 | Sorting Techniques | 6 | ✅ Complete |
@@ -51,7 +51,8 @@ Tracking my daily practice in Data Structures and Algorithms — problems solved
 
 | Date       | Topics                        | Problems Solved | Notes                                     |
 |------------|--------------------------------|------------------|--------------------------------------------|
-| 20-08-2026 | *Array Problems  Part 1*  | *Second Largest Element, Remove Duplicates*        | *Should Practice solving questions as: Brute -> Better -> Optimal* |
-| 21-08-2026 | *None*  | *Working on SIH*        |  |
-| 31-08-2026 | *Array Continuation*   |*Rotate left & right by k places, move zeroes*     | *Iteration should not exceed the given bounds* |
-
+| | 20-08-2026 | *Array Problems  Part 1*  | *Second Largest Element, Remove Duplicates*        | *Should Practice solving questions as: Brute -> Better -> Optimal* |
+| | 21-08-2026 | *None*  | *Working on SIH*        |  |
+| | 31-08-2026 | *Array Continuation*   |*Rotate left & right by k places, move zeroes*     | *Iteration should not exceed the given bounds* |
+| | 06-09-2026 | *Linear Search* | *Linear Search* | *Started with Striver Arrays today* |
+| | 06-09-2026 | *Set Operations* | *Union & Intersection of sorted arrays* | *Solved with brute + optimal approaches* |
