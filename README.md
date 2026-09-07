@@ -23,7 +23,7 @@ Code/
 |---|-------|-----------------|--------|
 | 1 | Basic Maths | 2 | 🔄 In Progress |
 | 2 | C++ STL | 4 | ✅ Complete |
-| 3 | Arrays (Easy) | 7 | 🔄 In Progress |
+| 3 | Arrays (Easy) | 10 | 🔄 In Progress |
 | 4 | Hashing | 1 | 🔄 In Progress |
 | 5 | Recursion | 5 | 🔄 In Progress |
 | 6 | Sorting Techniques | 6 | ✅ Complete |
@@ -56,3 +56,4 @@ Tracking my daily practice in Data Structures and Algorithms — problems solved
 | | 31-08-2026 | *Array Continuation*   |*Rotate left & right by k places, move zeroes*     | *Iteration should not exceed the given bounds* |
 | | 06-09-2026 | *Linear Search* | *Linear Search* | *Started with Striver Arrays today* |
 | | 06-09-2026 | *Set Operations* | *Union & Intersection of sorted arrays* | *Solved with brute + optimal approaches* |
+| | 07-09-2026 | *LeetCode Arrays* | *Missing Number, Max Consecutive Ones, Single Number* | *Solved all 3 on LC with multiple approaches* |
